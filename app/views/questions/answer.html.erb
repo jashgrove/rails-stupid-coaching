@@ -1,0 +1,23 @@
+<h1 class="display-2 fw-bold m-2 px-3" >Stupid Coaching</h1>
+
+<div class="card m-3" style="width: 700px">
+  <div class="card-body border-start border-4">
+    <blockquote class="blockquote mb-0 px-3">
+      <p><%=@answer %></p>
+      <footer class="blockquote-footer"><i>You</i></footer>
+    </blockquote>
+  </div>
+</div>
+
+<div class="card m-3" style="width: 700px">
+  <div class="card-body-1 border-start border-4">
+    <blockquote class="blockquote mb-0 px-4 py-2">
+      <p><%=@question %></p>
+      <footer class="blockquote-footer"><i>Your coach</i></footer>
+    </blockquote>
+  </div>
+</div>
+
+<div class="m-3">
+<p><%= link_to "Ask another question", ask_path %></p>
+</div>
